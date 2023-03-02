@@ -760,7 +760,8 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 $config['npr_api.settings']['npr_api_api_key'] = getenv('GPB_NPR_API_KEY');
 $config['npr_api.settings']['npr_api_cds_api_key'] = getenv('GPB_NPR_CDS_API_KEY');
 $config['npr_api.settings']['npr_api_url'] = getenv('GPB_NPR_API_URL');
-
+$config['npr_api.settings']['npr_api_stage_url'] = 'https://api-s1.npr.org';
+$config['npr_pull.settings']['npr_pull_url'] = getenv('GPB_NPR_API_URL');
 
 // Automatically generated include for settings managed by ddev.
 if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 'true') {
