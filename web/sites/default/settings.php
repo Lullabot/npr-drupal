@@ -759,6 +759,8 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 // Configure the NPR API key.
 $config['npr_api.settings']['npr_api_api_key'] = getenv('GPB_NPR_API_KEY');
 $config['npr_api.settings']['npr_api_cds_api_key'] = getenv('GPB_NPR_CDS_API_KEY');
+$config['npr_api.settings']['npr_api_url'] = getenv('GPB_NPR_API_URL');
+
 
 // Automatically generated include for settings managed by ddev.
 if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 'true') {
