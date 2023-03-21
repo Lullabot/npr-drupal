@@ -1596,12 +1596,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/npr.git",
-                "reference": "bd8c000948a19b46022989db47f339550b722c16"
+                "reference": "2b2ae355e653d241d339e2b5fffd21baceb9782e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/npr/zipball/bd8c000948a19b46022989db47f339550b722c16",
-                "reference": "bd8c000948a19b46022989db47f339550b722c16",
+                "url": "https://api.github.com/repos/Lullabot/npr/zipball/2b2ae355e653d241d339e2b5fffd21baceb9782e",
+                "reference": "2b2ae355e653d241d339e2b5fffd21baceb9782e",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -1611,7 +1611,7 @@
                 "source": "https://github.com/Lullabot/npr/tree/cds",
                 "issues": "https://github.com/Lullabot/npr/issues"
             },
-            "time": "2023-03-16T00:52:47+00:00"
+            "time": "2023-03-20T22:25:20+00:00"
         },
         {
             "name": "drush/drush",
